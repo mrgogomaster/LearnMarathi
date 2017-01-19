@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tan"
+        android:orientation="vertical"
+        tools:context="com.example.android.learnmarathi.MainActivity">
+
+        <TextView
+            android:id="@+id/number"
+            style="@style/CategoryStyle"
+            android:background="@color/category_numbers"
+            android:text="Number"/>
+
+        <TextView
+            android:id="@+id/family"
+            style="@style/CategoryStyle"
+            android:background="@color/category_family"
+            android:text="Family Members"/>
+
+        <TextView
+            android:id="@+id/colors"
+            style="@style/CategoryStyle"
+            android:background="@color/category_colors"
+            android:text="Colors"/>
+
+        <TextView
+            android:id="@+id/phrase"
+            style="@style/CategoryStyle"
+            android:background="@color/category_phrases"
+            android:text="Phrases"/>
+
+    </LinearLayout>
+</ScrollView>

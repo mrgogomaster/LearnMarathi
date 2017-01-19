@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Learn Marathi</string>
+
+    <string name="category_number">Numbers</string>
+
+    <string name="category_family">Family Members</string>
+
+    <string name="category_color">Colors</string>
+
+    <string name="category_phrase">phrases</string>
+</resources>
